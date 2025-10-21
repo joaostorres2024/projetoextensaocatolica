@@ -298,7 +298,7 @@ a{
   }
 
   .imagem-principal{
-    width: 300px;
+    display: none;
   }
 
   .botao-quero-aprender{
@@ -349,5 +349,26 @@ a{
 
   #logo1, #logo2, #logo3{
     width: 30px;
+  }
+
+  .titulo-info{
+    font-size: 20px;
+  }
+
+  .paragrafo-info1{
+    font-size: 15px;
+  }
+
+  .paragrafo-info2{
+    font-size: 15px;
+  }
+
+  .paragrafo-info3{
+    font-size: 15px;
+  }
+
+  .fotos-container{
+    display: flex;
+    flex-direction: column;
   }
 }
