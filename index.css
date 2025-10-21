@@ -291,8 +291,9 @@ a{
   }
 
   .botao-contato{
+    color: #000000;
     display: inherit;
-    width: 150px;
+    width: 130px;
     height: 35px;
     font-size: 15px;
   }
