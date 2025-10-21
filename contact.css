@@ -141,3 +141,80 @@ a{
   color: #FFFFFF;
   font-size: 13px;
 }
+
+@media screen and (max-width: 896px) {
+  .container-cabecalho{
+    padding: 0 20px;
+  }
+
+  .logo-branca{
+    width: 120px;
+    margin-top: 5px;
+  }
+  
+  #secao-principal{
+    padding: 0 20px;
+  }
+
+  .item-menu-navegacao{
+    display: none;
+  }
+
+  .botao-contato{
+    color: #000000;
+    display: inherit;
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .a-botao-contato{
+    text-decoration: none;
+  }
+
+  .titulo-contatos{
+    font-size: 20px;
+  }
+
+  .contatos-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulos{
+    font-size: 20px;
+  }
+
+  .paragrafo-email{
+    font-size: 15px;
+  }
+
+  .icone-contato{
+    width: 40px;
+  }
+
+    .botao-quero-aprender{
+    border-radius: 7px;
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+  }
+
+    .rodape-container{
+    padding: 0 20px;
+  }
+
+  .link-rodape-container{
+    font-size: 15px;
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  .direitos{
+    font-size: 10px;
+  }
+
+  #contatos{
+    padding: 0 20px;
+  }
+} 
