@@ -273,6 +273,19 @@ a{
 }
 
 @media screen and (max-width: 896px) {
+  .container-cabecalho{
+    padding: 0 20px;
+  }
+
+  .logo-branca{
+    width: 120px;
+    margin-top: 5px;
+  }
+  
+  #secao-principal{
+    padding: 0 20px;
+  }
+
   .item-menu-navegacao{
     display: none;
   }
