@@ -1,0 +1,143 @@
+@import url('https://fonts.cdnfonts.com/css/galano-grotesque-alt');
+
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Galano Grotesque';
+}
+
+a{
+  max-width: max-content;
+}
+
+.container-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #371DF5;
+  padding: 0 50px;
+}
+
+.logo-branca {
+  width: 180px;
+}
+
+.link-cabecalho{
+  text-decoration: none;
+}
+
+.link-cabecalho:hover{
+  text-decoration: underline 1px #FFFFFF;
+}
+
+.lista-menu-navegacao {
+  max-width: 100%;
+  font-size: 17px;
+  gap: 30px;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-menu-navegacao {
+  font-weight: 700;
+  text-decoration: none;
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+.botao-contato {
+  border: none;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  font-weight: 700;
+  font-size: 17px;
+  width: 130px;
+  height: 35px;
+}
+
+.botao-contato:hover{
+  cursor: pointer;
+  background-color: #ececec;
+}
+
+#contatos{
+  padding: 0 50px;
+}
+
+.titulo-contatos{
+  padding: 30px 0;
+}
+
+.contatos-container{
+  margin-bottom: 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.email-e-whatsapp{
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: 1px solid #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titulo-email{
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.paragrafo-email{
+  margin-bottom: 10px;
+}
+
+.botao-quero-aprender {
+  color: #FFFFFF;
+  width: 180px;
+  border: none;
+  border-radius: 10px;
+  background-color: #371DF5;
+  font-weight: 700;
+  font-size: 17px;
+  height: 40px;
+}
+
+.botao-quero-aprender:hover{
+  background-color: #10008a;
+  cursor: pointer;
+}
+
+.rodape-container{
+  padding: 20px 50px;
+  background-color: #000000;
+}
+
+.link-rodape-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.link-rodape{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link-rodape:hover{
+  text-decoration: underline 1px #FFFFFF;
+}
+
+.direitos{
+  padding: 20px 0;
+  color: #FFFFFF;
+  font-size: 13px;
+}
