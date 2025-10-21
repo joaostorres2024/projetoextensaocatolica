@@ -8,6 +8,10 @@
   font-family: 'Galano Grotesque';
 }
 
+body{
+  background-color: #FFFFFF;
+}
+
 a{
   max-width: max-content;
 }
