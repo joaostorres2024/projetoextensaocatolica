@@ -413,4 +413,18 @@ a{
   .fotos p{
     font-size: 15px;
   }
+
+  .rodape-container{
+    padding: 0 20px;
+  }
+
+  .link-rodape-container{
+    font-size: 15px;
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  .direitos{
+    font-size: 10px;
+  }
 }
