@@ -370,8 +370,20 @@ a{
     font-size: 15px;
   }
 
-  #logo1, #logo2, #logo3{
+  #logo1{
     width: 30px;
+  }
+
+    #logo2{
+    width: 30px;
+  }
+  
+    #logo3{
+    width: 30px;
+  }
+
+  #secao-info{
+    padding: 0 20px;
   }
 
   .titulo-info{
@@ -379,19 +391,26 @@ a{
   }
 
   .paragrafo-info1{
+    max-width: 100%;
     font-size: 15px;
   }
 
   .paragrafo-info2{
-    font-size: 15px;
+    max-width: 100%;
   }
 
   .paragrafo-info3{
+    max-width: 100%;
     font-size: 15px;
   }
 
   .fotos-container{
+    gap: 50px;
     display: flex;
     flex-direction: column;
+  }
+
+  .fotos p{
+    font-size: 15px;
   }
 }
