@@ -89,26 +89,26 @@ a{
 }
 
 .logo-colorida {
-  width: 180px;
+  width: 150px;
 }
 
 .titulo-principal {
-  font-size: 40px;
+  font-size: 35px;
   max-width: auto;
 }
 
 .paragrafo-principal {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .botao-quero-aprender {
   color: #FFFFFF;
-  width: 180px;
+  width: 160px;
   border: none;
   border-radius: 10px;
   background-color: #371DF5;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
   height: 40px;
 }
 
