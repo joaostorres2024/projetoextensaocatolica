@@ -22,10 +22,12 @@ a{
   align-items: center;
   background-color: #371DF5;
   padding: 0 50px;
+  height: 40px;
 }
 
 .logo-branca {
-  width: 180px;
+  margin-top: 5px;
+  width: 100px;
 }
 
 .link-cabecalho{
@@ -38,7 +40,7 @@ a{
 
 .lista-menu-navegacao {
   max-width: 100%;
-  font-size: 17px;
+  font-size: 13px;
   gap: 30px;
   flex-wrap: nowrap;
   display: flex;
@@ -54,12 +56,12 @@ a{
 
 .botao-contato {
   border: none;
-  border-radius: 10px;
+  border-radius: 7px;
   background-color: #FFFFFF;
   font-weight: 700;
-  font-size: 17px;
-  width: 130px;
-  height: 35px;
+  font-size: 13px;
+  width: 100px;
+  height: 25px;
 }
 
 .botao-contato:hover{
