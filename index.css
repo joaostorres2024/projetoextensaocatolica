@@ -88,12 +88,16 @@ a{
   gap: 20px;
 }
 
+.titulos{
+  font-size: 28px;
+}
+
 .logo-colorida {
   width: 150px;
 }
 
 .titulo-principal {
-  font-size: 35px;
+  font-size: 30px;
   max-width: auto;
 }
 
@@ -153,28 +157,43 @@ a{
   border: 1px solid #371DF5;
 }
 
+.titulo-pesquisas{
+  font-size: 30px;
+}
+
 .titulo-pesquisa {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  font-size: 15px;
 }
 
 .paragrafo-pesquisa {
+  font-size: 15px;
   margin-top: 20px;
 }
 
 .icone-pesquisa {
-  width: 60px;
+  width: 50px;
 }
 
 #secao-quero-aprender{
   padding: 0 50px;
 }
 
+.titulo-quero-aprender{
+  font-size: 30px;
+}
+
 .paragrafo-quero-aprender{
+  font-size: 15px;
   max-width: 53%;
   padding: 10px 0;
+}
+
+.paragrado-cartao{
+  font-size: 15px;
 }
 
 .cartoes-plataforma{
@@ -214,6 +233,10 @@ a{
   padding: 0 50px;
 }
 
+.titulo-info{
+  font-size: 30px;
+}
+
 .textos-info{
   display: flex;
   flex-direction: column;
@@ -221,14 +244,17 @@ a{
 }
 
 .paragrafo-info1{
+  font-size: 15px;
   max-width: 51%;
 }
 
 .paragrafo-info2{
+  font-size: 15px;
   max-width: 75%;
 }
 
 .paragrafo-info3{
+  font-size: 15px;
   max-width: 75%;
 }
 
