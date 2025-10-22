@@ -98,10 +98,12 @@ a{
 }
 
 .paragrafo-principal {
+  max-width: 93%;
   font-size: 17px;
 }
 
 .botao-quero-aprender {
+  margin-top: 10px;
   color: #FFFFFF;
   width: 160px;
   border: none;
@@ -118,8 +120,9 @@ a{
 }
 
 .imagem-principal {
+  margin-left: 30px;
   position: relative;
-  width: 500px;
+  width: 550px;
 }
 
 #secao-pesquisas {
