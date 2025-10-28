@@ -433,12 +433,16 @@ a{
     font-size: 20px;
   }
 
+  .titulo-pesquisa{
+    gap: 10px;
+  }
+
   .titulos{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .icone-pesquisa{
-    width: 40px;
+    width: 30px;
   }
 
   .paragrafo-pesquisa-p{
@@ -446,7 +450,7 @@ a{
   }
 
   #secao-quero-aprender{
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     padding: 0 20px;
   }
 
@@ -488,10 +492,11 @@ a{
 
   #secao-perguntas-frequentes{
     padding: 0 20px;
+    margin-bottom: 60px;
   }
 
   .titulo-perguntas{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .icone-mais{
