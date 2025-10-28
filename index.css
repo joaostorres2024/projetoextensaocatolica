@@ -69,12 +69,12 @@ a{
   background-color: #ececec;
 }
 
+
 .container-principal {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-bottom: 10px;
 }
 
 #secao-principal {
@@ -378,7 +378,8 @@ a{
   }
   
   #secao-principal{
-    padding: 0 20px;
+    padding: 30px 20px;
+    margin-bottom: 10px;
   }
 
   .item-menu-navegacao{
