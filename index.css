@@ -228,6 +228,68 @@ a{
   width: 50px;
 }
 
+#secao-perguntas-frequentes{
+  padding: 0 50px;
+  margin-bottom: 80px;
+}
+
+.perguntas-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titulo-perguntas-frequentes-container{
+  margin-bottom: 60px;
+}
+
+.perguntas{
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #D9D9D9;
+  flex-direction: column;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.perguntas:hover{
+  border-color: #371DF5;
+}
+
+.titulo-perguntas{
+  font-size: 25px;
+  max-width: 80%;
+}
+
+.paragrafo-resposta{
+  font-size: 16px;
+}
+
+.icone-mais{
+  width: 35px;
+  cursor: pointer;
+}
+
+.botao-mais{
+  background: none;
+  border: none;
+}
+
+.pergunta{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resposta{
+  display: none;
+}
+
+.resposta.ativa{
+  display: block;
+}
+
 #secao-info{
   padding: 0 50px;
 }
@@ -384,6 +446,7 @@ a{
   }
 
   #secao-quero-aprender{
+    margin-bottom: 80px;
     padding: 0 20px;
   }
 
@@ -421,6 +484,22 @@ a{
   
     #logo3{
     width: 30px;
+  }
+
+  #secao-perguntas-frequentes{
+    padding: 0 20px;
+  }
+
+  .titulo-perguntas{
+    font-size: 20px;
+  }
+
+  .icone-mais{
+    width: 30px;
+  }
+
+  .paragrafo-resposta{
+    font-size: 15px;
   }
 
   #secao-info{
