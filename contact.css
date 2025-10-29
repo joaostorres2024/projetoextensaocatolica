@@ -56,7 +56,7 @@ a{
 
 .botao-contato {
   border: none;
-  border-radius: 7px;
+  border-radius: 20px;
   background-color: #FFFFFF;
   font-weight: 700;
   font-size: 14px;
@@ -117,10 +117,11 @@ a{
 }
 
 .botao-quero-aprender {
+  margin-top: 10px;
   color: #FFFFFF;
   width: 160px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #371DF5;
   font-weight: 700;
   font-size: 15px;
@@ -179,9 +180,9 @@ a{
   .botao-contato{
     color: #000000;
     display: inherit;
-    width: 130px;
-    height: 35px;
-    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
   }
 
   .a-botao-contato{
@@ -209,8 +210,8 @@ a{
     width: 40px;
   }
 
-    .botao-quero-aprender{
-    border-radius: 7px;
+  .botao-quero-aprender{
+    border-radius: 20px;
     height: 35px;
     width: 150px;
     font-size: 15px;
